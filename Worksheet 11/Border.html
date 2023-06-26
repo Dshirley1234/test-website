@@ -1,18 +1,31 @@
 <html>
-    <style type="css/text">
+    <head>
+    <style>
         p{
             width: 200px;
-            border-style: solid
+            border-style: solid;
         }
         p.one{
-            border-width: 3px;
+            border-width: 5px;
             border-color:blueviolet;
         }
         p.two{
             border-width:3px,6px,19,50px;
-            border-color:burlywood,lime, palevioletred,blue
+            border-color:burlywood,lime, palevioletred,blue;
         }
-        p.three{}
+        p.three{
+            border-width:10px;
+            border-color:red;
+            border-style: dotted;
+        }
         
     </style>
+    </head>
+    <title>Borders</title>
+    <body>
+    <h1>Borders</h1>
+    <p class ="one">Borders can be used to create boxes around text</p>
+    <p class ="two">Each side can be customised</p>
+    <p class = "three">They can even come in different patterns</p>
+    </body>
 </html>
