@@ -1,0 +1,65 @@
+
+h1{
+    color:darkorange;
+
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.8fr 2fr 0.7fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Logo Logo Navigation Navigation Navigation Navigation"
+      "Header Header Header Header Header Header"
+      "Intro-text Intro-text Intro-text Intro-text Intro-text Intro-text"
+      "Box1 Box1 box2 box2 box3 box3"
+      "Footer Footer Footer Footer Footer Footer";
+  }
+  
+  .Logo { grid-area: Logo; }
+  
+  .Header { grid-area: Header; }
+  
+  .Navigation { grid-area: Navigation; }
+  
+  .Box1 { grid-area: Box1; }
+  
+  .box2 { grid-area: box2; }
+  
+  .box3 { grid-area: box3; }
+  
+  .Footer { grid-area: Footer; }
+  
+  .Intro-text { grid-area: Intro-text; }
+  
+  
+  html, body , .container {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* For presentation only, no need to copy the code below */
+  
+  .container * {
+    border: 1px solid red;
+    position: relative;
+  }
+  
+  /*.container *:after {
+    content:attr(class);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  */
+
+
+
+  
