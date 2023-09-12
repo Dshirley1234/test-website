@@ -1,0 +1,14 @@
+body {
+    font-family: arial;
+    background-color: lightsteelblue
+}
+
+h1{
+    color:indigo;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p{
+    color:darkviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
